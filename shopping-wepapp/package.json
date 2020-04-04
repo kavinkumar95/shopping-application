@@ -2,6 +2,10 @@
   "name": "shopping-wepapp",
   "version": "0.0.0",
   "scripts": {
+    "start-dev": "ng serve --configuration=development",
+    "start-prod": "ng serve --configuration=production",
+    "build-dev": "ng build --configuration=development",
+    "build-prod": "ng build --configuration=production",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -19,6 +23,7 @@
     "@angular/platform-browser": "~8.2.5",
     "@angular/platform-browser-dynamic": "~8.2.5",
     "@angular/router": "~8.2.5",
+    "bootstrap": "^3.4.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
